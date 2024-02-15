@@ -1,0 +1,1 @@
+MAX_LESSONS = 35

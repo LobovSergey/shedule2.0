@@ -1,2 +1,3 @@
 1.0.0. - init, base class and structure
 1.0.1. - data read
+1.1.0. - start working main process. Testing 5 class, w/o rules, only random. Work badly

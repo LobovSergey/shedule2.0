@@ -1,5 +1,7 @@
 from dataclasses import dataclass, field
 
+from lgc.cls.teacher import Teacher
+
 
 @dataclass
 class Group:
@@ -7,7 +9,9 @@ class Group:
     group: str = None
     shedule: list[list] = field(default_factory=list)
     hours: int = 0
-    rules: dict = field(default_factory=dict)
+    load: dict = field(default_factory=dict)
+    lessons: list = field(default_factory=list)
+    class_teacher: str = None
 
     def __repr__(self) -> str:
         return f"{self.group}"
@@ -17,3 +21,7 @@ class Group:
 
     def get_shedule(self):
         return self.shedule
+    
+    def prepare_lessons(self):
+        self.lessons = [key for key,value in self.load.items() for _ in range(value)]
+        

@@ -1,128 +1,71 @@
 [
     {
         "id": 1,
-        "group": "5a",
-        "hours": 29,
-        "lessons": []
+        "group": "a",
+        "class_teacher": "Лобова А.А.",
+        "setting": {
+            "class_grade": 5,
+            "load": {
+                "impoertant": 1,
+                "sport": 2,
+                "history": 2,
+                "math": 5,
+                "ODNKR": 1,
+                "russian": 9,
+                "work": 2,
+                "english": 3,
+                "geography": 1,
+                "biology": 2,
+                "music": 1,
+                "art": 1
+            },
+            "hours": 29
+        }
     },
     {
         "id": 2,
-        "group": "5b",
-        "hours": 29,
-        "lessons": []
+        "group": "b",
+        "class_teacher": "Кудрявцева Е.В.",
+        "setting": {
+            "class_grade": 5,
+            "load": {
+                "impoertant": 1,
+                "sport": 2,
+                "history": 2,
+                "math": 5,
+                "ODNKR": 1,
+                "russian": 9,
+                "work": 2,
+                "english": 3,
+                "geography": 1,
+                "biology": 2,
+                "music": 1,
+                "art": 1
+            },
+            "hours": 29
+        }
     },
     {
         "id": 3,
-        "group": "5c",
-        "hours": 29,
-        "lessons": []
-    },
-    {
-        "id": 4,
-        "group": "6a",
-        "hours": 30,
-        "lessons": []
-    },
-    {
-        "id": 5,
-        "group": "6b",
-        "hours": 30,
-        "lessons": []
-    },
-    {
-        "id": 6,
-        "group": "6c",
-        "hours": 30,
-        "lessons": []
-    },
-    {
-        "id": 7,
-        "group": "6d",
-        "hours": 30,
-        "lessons": []
-    },
-    {
-        "id": 8,
-        "group": "7a",
-        "hours": 32,
-        "lessons": []
-    },
-    {
-        "id": 9,
-        "group": "7b",
-        "hours": 32,
-        "lessons": []
-    },
-    {
-        "id": 10,
-        "group": "7c",
-        "hours": 32,
-        "lessons": []
-    },
-    {
-        "id": 11,
-        "group": "7d",
-        "hours": 32,
-        "lessons": []
-    },
-    {
-        "id": 12,
-        "group": "8a",
-        "hours": 33,
-        "lessons": []
-    },
-    {
-        "id": 13,
-        "group": "8b",
-        "hours": 33,
-        "lessons": []
-    },
-    {
-        "id": 14,
-        "group": "8c",
-        "hours": 33,
-        "lessons": []
-    },
-    {
-        "id": 15,
-        "group": "9a",
-        "hours": 33,
-        "lessons": []
-    },
-    {
-        "id": 16,
-        "group": "9b",
-        "hours": 33,
-        "lessons": []
-    },
-    {
-        "id": 17,
-        "group": "9c",
-        "hours": 33,
-        "lessons": []
-    },
-    {
-        "id": 18,
-        "group": "10a",
-        "hours": 34,
-        "lessons": []
-    },
-    {
-        "id": 19,
-        "group": "10b",
-        "hours": 34,
-        "lessons": []
-    },
-    {
-        "id": 20,
-        "group": "11a",
-        "hours": 34,
-        "lessons": []
-    },
-    {
-        "id": 21,
-        "group": "11b",
-        "hours": 34,
-        "lessons": []
+        "group": "c",
+        "class_teacher": "teacher 8",
+        "setting": {
+            "class_grade": 5,
+            "load": {
+                "impoertant": 1,
+                "sport": 2,
+                "history": 2,
+                "math": 5,
+                "ODNKR": 1,
+                "russian": 9,
+                "work": 2,
+                "english": 3,
+                "geography": 1,
+                "biology": 2,
+                "music": 1,
+                "art": 1
+            },
+            "hours": 29
+        }
     }
 ]

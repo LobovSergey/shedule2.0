@@ -8,6 +8,7 @@ class Teacher:
     descipline: str = None
     shedule: list[list] = field(default_factory=list)
     hours: int = 0
+    class_pool: list = field(default_factory=list)
 
     def __repr__(self) -> str:
         return f"{self.name} - {self.descipline}"
