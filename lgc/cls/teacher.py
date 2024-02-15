@@ -3,6 +3,7 @@ from dataclasses import dataclass, field
 
 @dataclass
 class Teacher:
+    id: int = 0
     name: str = None
     descipline: str = None
     shedule: list[list] = field(default_factory=list)

@@ -4,6 +4,7 @@
         "info": {
             "name": "Корнилов В.С.",
             "group": false,
+            "hours": null,
             "discipline": "music",
             "lessons": [
                 "1a",
@@ -39,6 +40,7 @@
         "info": {
             "name": "Юшкова Н.Н.",
             "group": false,
+            "hours": null,
             "discipline": "geography",
             "lessons": [
                 "10a",
@@ -65,6 +67,7 @@
         "info": {
             "name": "teacher 3",
             "group": false,
+            "hours": null,
             "discipline": null,
             "lessons": [
                 "10a",
@@ -89,6 +92,7 @@
         "info": {
             "name": "teacher 4",
             "group": false,
+            "hours": null,
             "discipline": null,
             "lessons": [
                 "10a",
@@ -113,6 +117,7 @@
         "info": {
             "name": "Степанова В.А.",
             "group": true,
+            "hours": null,
             "discipline": "work",
             "lessons": [
                 "5a",
@@ -137,6 +142,7 @@
         "info": {
             "name": "teacher 6",
             "group": false,
+            "hours": null,
             "discipline": null,
             "lessons": [
                 "10a",
@@ -159,6 +165,7 @@
         "info": {
             "name": "teacher 7",
             "group": false,
+            "hours": null,
             "discipline": null,
             "lessons": [
                 "5a",
@@ -181,6 +188,7 @@
         "info": {
             "name": "teacher 8",
             "group": false,
+            "hours": null,
             "discipline": null,
             "lessons": [
                 "2a",
@@ -203,6 +211,7 @@
         "info": {
             "name": "Кудрявцева Е.В.",
             "group": false,
+            "hours": null,
             "discipline": "art",
             "lessons": [
                 "2c",
@@ -225,6 +234,7 @@
         "info": {
             "name": "teacher 10",
             "group": false,
+            "hours": null,
             "discipline": null,
             "lessons": [
                 "5a",
@@ -246,6 +256,7 @@
         "info": {
             "name": "teacher 11",
             "group": false,
+            "hours": null,
             "discipline": null,
             "lessons": [
                 "10a",
@@ -267,6 +278,7 @@
         "info": {
             "name": "teacher 12",
             "group": false,
+            "hours": null,
             "discipline": null,
             "lessons": [
                 "2c",
@@ -288,6 +300,7 @@
         "info": {
             "name": "Ромодина Т.В.",
             "group": false,
+            "hours": null,
             "discipline": "history",
             "lessons": [
                 "11a",
@@ -308,6 +321,7 @@
         "info": {
             "name": "teacher 14",
             "group": false,
+            "hours": null,
             "discipline": null,
             "lessons": [
                 "10a",
@@ -328,6 +342,7 @@
         "info": {
             "name": "teacher 15",
             "group": false,
+            "hours": null,
             "discipline": null,
             "lessons": [
                 "5a",
@@ -351,6 +366,7 @@
         "info": {
             "name": "Самарцев А.И.",
             "group": false,
+            "hours": null,
             "discipline": "OBJ",
             "lessons": [
                 "10a",
@@ -371,6 +387,7 @@
         "info": {
             "name": "Сергеева В.Д.",
             "group": false,
+            "hours": null,
             "discipline": "sport",
             "lessons": [
                 "10a",
@@ -391,6 +408,7 @@
         "info": {
             "name": "teacher 18",
             "group": false,
+            "hours": null,
             "discipline": null,
             "lessons": [
                 "10a",
@@ -410,6 +428,7 @@
         "info": {
             "name": "Варусон Т.А.",
             "group": false,
+            "hours": null,
             "discipline": "history",
             "lessons": [
                 "5a",
@@ -429,6 +448,7 @@
         "info": {
             "name": "Бабайкина Д.Г.",
             "group": false,
+            "hours": null,
             "discipline": "sport",
             "lessons": [
                 "10b",
@@ -448,6 +468,7 @@
         "info": {
             "name": "Петрова Л.Н.",
             "group": false,
+            "hours": null,
             "discipline": "sport",
             "lessons": [
                 "10b",
@@ -467,6 +488,7 @@
         "info": {
             "name": "Белохвостик Ю.А.",
             "group": false,
+            "hours": null,
             "discipline": "sport",
             "lessons": [
                 "1c",
@@ -486,6 +508,7 @@
         "info": {
             "name": "teacher 23",
             "group": false,
+            "hours": null,
             "discipline": null,
             "lessons": [
                 "4c",
@@ -504,6 +527,7 @@
         "info": {
             "name": "teacher 24",
             "group": false,
+            "hours": null,
             "discipline": null,
             "lessons": [
                 "4a",
@@ -522,6 +546,7 @@
         "info": {
             "name": "teacher 25",
             "group": false,
+            "hours": null,
             "discipline": null,
             "lessons": [
                 "10b",
@@ -540,6 +565,7 @@
         "info": {
             "name": "teacher 26",
             "group": false,
+            "hours": null,
             "discipline": null,
             "lessons": [
                 "10a",
@@ -558,6 +584,7 @@
         "info": {
             "name": "teacher 27",
             "group": false,
+            "hours": null,
             "discipline": null,
             "lessons": [
                 "7c",
@@ -576,6 +603,7 @@
         "info": {
             "name": "teacher 28",
             "group": false,
+            "hours": null,
             "discipline": null,
             "lessons": [
                 "11a",
@@ -593,6 +621,7 @@
         "info": {
             "name": "teacher 29",
             "group": false,
+            "hours": null,
             "discipline": null,
             "lessons": [
                 "10a",
@@ -610,6 +639,7 @@
         "info": {
             "name": "Бушина Ю.А.",
             "group": false,
+            "hours": null,
             "discipline": "deutsch",
             "lessons": [
                 "8a",
@@ -626,6 +656,7 @@
         "info": {
             "name": "Храмцова В.В.",
             "group": false,
+            "hours": null,
             "discipline": "math",
             "lessons": [
                 "11a",
@@ -641,6 +672,7 @@
         "info": {
             "name": "Сысоева С.Б.",
             "group": false,
+            "hours": null,
             "discipline": "math",
             "lessons": [
                 "11b",
@@ -656,6 +688,7 @@
         "info": {
             "name": "teacher 33",
             "group": false,
+            "hours": null,
             "discipline": null,
             "lessons": [
                 "8a",
@@ -671,6 +704,7 @@
         "info": {
             "name": "Лехницкая М.А.",
             "group": false,
+            "hours": null,
             "discipline": "russian",
             "lessons": [
                 "10a",
@@ -685,6 +719,7 @@
         "info": {
             "name": "Белаш Е.В.",
             "group": false,
+            "hours": null,
             "discipline": "russian",
             "lessons": [
                 "11a",
@@ -699,6 +734,7 @@
         "info": {
             "name": "Манайчева Е.А.",
             "group": false,
+            "hours": null,
             "discipline": "russian",
             "lessons": [
                 "5b",
@@ -713,6 +749,7 @@
         "info": {
             "name": "VACANCY",
             "group": false,
+            "hours": null,
             "discipline": "math",
             "lessons": [
                 "6c",
@@ -727,6 +764,7 @@
         "info": {
             "name": "Овчарова Ю.А.",
             "group": false,
+            "hours": null,
             "discipline": "math",
             "lessons": [
                 "10a",
@@ -741,6 +779,7 @@
         "info": {
             "name": "Мельникова И.Н.",
             "group": false,
+            "hours": null,
             "discipline": "math",
             "lessons": [
                 "10b",
@@ -755,6 +794,7 @@
         "info": {
             "name": "Платонова О.А.",
             "group": false,
+            "hours": null,
             "discipline": "history",
             "lessons": [
                 "10a",
@@ -769,6 +809,7 @@
         "info": {
             "name": "Ени Т.В.",
             "group": false,
+            "hours": null,
             "discipline": "russian",
             "lessons": [
                 "10b",
@@ -782,6 +823,7 @@
         "info": {
             "name": "Быстрицкая М.А.",
             "group": false,
+            "hours": null,
             "discipline": "russian",
             "lessons": [
                 "8a",
@@ -795,6 +837,7 @@
         "info": {
             "name": "Кулагина Н.И.",
             "group": false,
+            "hours": null,
             "discipline": "geography",
             "lessons": [
                 "9a",
@@ -808,6 +851,7 @@
         "info": {
             "name": "Антонова В.В.",
             "group": false,
+            "hours": null,
             "discipline": "russian",
             "lessons": [
                 "5b",
@@ -820,6 +864,7 @@
         "info": {
             "name": "Романова Н.С.",
             "group": false,
+            "hours": null,
             "discipline": "russian",
             "lessons": [
                 "5a",
@@ -832,6 +877,7 @@
         "info": {
             "name": "teacher 46",
             "group": false,
+            "hours": null,
             "discipline": null,
             "lessons": [
                 "10a",
@@ -844,6 +890,7 @@
         "info": {
             "name": "Лобова А.А.",
             "group": false,
+            "hours": null,
             "discipline": "russian",
             "lessons": [
                 "6b"

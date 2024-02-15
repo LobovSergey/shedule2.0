@@ -2,7 +2,7 @@ from dataclasses import dataclass, field
 
 
 @dataclass
-class Class:
+class Group:
     id: int = None
     group: str = None
     shedule: list[list] = field(default_factory=list)
