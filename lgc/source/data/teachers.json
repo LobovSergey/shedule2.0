@@ -1,0 +1,853 @@
+[
+    {
+        "id": 1,
+        "info": {
+            "name": "Корнилов В.С.",
+            "group": false,
+            "discipline": "music",
+            "lessons": [
+                "1a",
+                "1b",
+                "1c",
+                "2a",
+                "2b",
+                "2c",
+                "2d",
+                "3a",
+                "3b",
+                "3c",
+                "3d",
+                "4a",
+                "4b",
+                "4c",
+                "5a",
+                "5b",
+                "5c",
+                "6a",
+                "6b",
+                "6c",
+                "6d",
+                "7a",
+                "7b",
+                "7c",
+                "7d"
+            ]
+        }
+    },
+    {
+        "id": 2,
+        "info": {
+            "name": "Юшкова Н.Н.",
+            "group": false,
+            "discipline": "geography",
+            "lessons": [
+                "10a",
+                "10b",
+                "5a",
+                "5b",
+                "5c",
+                "6a",
+                "6b",
+                "6c",
+                "6d",
+                "7a",
+                "7b",
+                "7c",
+                "7d",
+                "8a",
+                "8b",
+                "8c"
+            ]
+        }
+    },
+    {
+        "id": 3,
+        "info": {
+            "name": "teacher 3",
+            "group": false,
+            "discipline": null,
+            "lessons": [
+                "10a",
+                "10b",
+                "11a",
+                "11b",
+                "7a",
+                "7b",
+                "7c",
+                "7d",
+                "8a",
+                "8b",
+                "8c",
+                "9a",
+                "9b",
+                "9c"
+            ]
+        }
+    },
+    {
+        "id": 4,
+        "info": {
+            "name": "teacher 4",
+            "group": false,
+            "discipline": null,
+            "lessons": [
+                "10a",
+                "10b",
+                "11a",
+                "11b",
+                "7a",
+                "7b",
+                "7c",
+                "7d",
+                "8a",
+                "8b",
+                "8c",
+                "9a",
+                "9b",
+                "9c"
+            ]
+        }
+    },
+    {
+        "id": 5,
+        "info": {
+            "name": "Степанова В.А.",
+            "group": true,
+            "discipline": "work",
+            "lessons": [
+                "5a",
+                "5b",
+                "5c",
+                "6a",
+                "6b",
+                "6c",
+                "6d",
+                "7a",
+                "7b",
+                "7c",
+                "7d",
+                "8a",
+                "8b",
+                "8c"
+            ]
+        }
+    },
+    {
+        "id": 6,
+        "info": {
+            "name": "teacher 6",
+            "group": false,
+            "discipline": null,
+            "lessons": [
+                "10a",
+                "11a",
+                "7a",
+                "7b",
+                "7c",
+                "7d",
+                "8a",
+                "8b",
+                "8c",
+                "9a",
+                "9b",
+                "9c"
+            ]
+        }
+    },
+    {
+        "id": 7,
+        "info": {
+            "name": "teacher 7",
+            "group": false,
+            "discipline": null,
+            "lessons": [
+                "5a",
+                "5b",
+                "5c",
+                "6a",
+                "6b",
+                "6c",
+                "6d",
+                "7a",
+                "7b",
+                "7c",
+                "7d",
+                "9c"
+            ]
+        }
+    },
+    {
+        "id": 8,
+        "info": {
+            "name": "teacher 8",
+            "group": false,
+            "discipline": null,
+            "lessons": [
+                "2a",
+                "2b",
+                "2c",
+                "2d",
+                "3a",
+                "3b",
+                "3c",
+                "3d",
+                "4b",
+                "4c",
+                "5a",
+                "5c"
+            ]
+        }
+    },
+    {
+        "id": 9,
+        "info": {
+            "name": "Кудрявцева Е.В.",
+            "group": false,
+            "discipline": "art",
+            "lessons": [
+                "2c",
+                "5a",
+                "5b",
+                "5c",
+                "6a",
+                "6b",
+                "6c",
+                "6d",
+                "7a",
+                "7b",
+                "7c",
+                "7d"
+            ]
+        }
+    },
+    {
+        "id": 10,
+        "info": {
+            "name": "teacher 10",
+            "group": false,
+            "discipline": null,
+            "lessons": [
+                "5a",
+                "5b",
+                "5c",
+                "6a",
+                "6b",
+                "6c",
+                "6d",
+                "7a",
+                "7b",
+                "7c",
+                "7d"
+            ]
+        }
+    },
+    {
+        "id": 11,
+        "info": {
+            "name": "teacher 11",
+            "group": false,
+            "discipline": null,
+            "lessons": [
+                "10a",
+                "10aP",
+                "10b",
+                "10bP",
+                "11b",
+                "8a",
+                "8b",
+                "8c",
+                "9a",
+                "9b",
+                "9c"
+            ]
+        }
+    },
+    {
+        "id": 12,
+        "info": {
+            "name": "teacher 12",
+            "group": false,
+            "discipline": null,
+            "lessons": [
+                "2c",
+                "2d",
+                "3a",
+                "3b",
+                "3c",
+                "3d",
+                "4a",
+                "4b",
+                "5a",
+                "5b",
+                "5c"
+            ]
+        }
+    },
+    {
+        "id": 13,
+        "info": {
+            "name": "Ромодина Т.В.",
+            "group": false,
+            "discipline": "history",
+            "lessons": [
+                "11a",
+                "11b",
+                "6a",
+                "6b",
+                "6c",
+                "6d",
+                "7b",
+                "8a",
+                "8b",
+                "8c"
+            ]
+        }
+    },
+    {
+        "id": 14,
+        "info": {
+            "name": "teacher 14",
+            "group": false,
+            "discipline": null,
+            "lessons": [
+                "10a",
+                "10b",
+                "11a",
+                "11b",
+                "8a",
+                "8b",
+                "8c",
+                "9a",
+                "9b",
+                "9c"
+            ]
+        }
+    },
+    {
+        "id": 15,
+        "info": {
+            "name": "teacher 15",
+            "group": false,
+            "discipline": null,
+            "lessons": [
+                "5a",
+                "5b",
+                "5c",
+                "6a",
+                "6b",
+                "6c",
+                "6d",
+                "7a",
+                "7b",
+                "7c",
+                "7d",
+                "8a",
+                "8c"
+            ]
+        }
+    },
+    {
+        "id": 16,
+        "info": {
+            "name": "Самарцев А.И.",
+            "group": false,
+            "discipline": "OBJ",
+            "lessons": [
+                "10a",
+                "10b",
+                "11a",
+                "11b",
+                "8a",
+                "8b",
+                "8c",
+                "9a",
+                "9b",
+                "9c"
+            ]
+        }
+    },
+    {
+        "id": 17,
+        "info": {
+            "name": "Сергеева В.Д.",
+            "group": false,
+            "discipline": "sport",
+            "lessons": [
+                "10a",
+                "2a",
+                "2d",
+                "4a",
+                "4b",
+                "5a",
+                "5c",
+                "6c",
+                "6d",
+                "7c"
+            ]
+        }
+    },
+    {
+        "id": 18,
+        "info": {
+            "name": "teacher 18",
+            "group": false,
+            "discipline": null,
+            "lessons": [
+                "10a",
+                "10b",
+                "11b",
+                "8a",
+                "8b",
+                "8c",
+                "9a",
+                "9b",
+                "9c"
+            ]
+        }
+    },
+    {
+        "id": 19,
+        "info": {
+            "name": "Варусон Т.А.",
+            "group": false,
+            "discipline": "history",
+            "lessons": [
+                "5a",
+                "5b",
+                "5c",
+                "6a",
+                "6b",
+                "6c",
+                "6d",
+                "7a",
+                "7c"
+            ]
+        }
+    },
+    {
+        "id": 20,
+        "info": {
+            "name": "Бабайкина Д.Г.",
+            "group": false,
+            "discipline": "sport",
+            "lessons": [
+                "10b",
+                "11a",
+                "11b",
+                "1b",
+                "2c",
+                "3b",
+                "4c",
+                "8b",
+                "9b"
+            ]
+        }
+    },
+    {
+        "id": 21,
+        "info": {
+            "name": "Петрова Л.Н.",
+            "group": false,
+            "discipline": "sport",
+            "lessons": [
+                "10b",
+                "11a",
+                "1a",
+                "2b",
+                "3d",
+                "6b",
+                "7b",
+                "7d",
+                "9c"
+            ]
+        }
+    },
+    {
+        "id": 22,
+        "info": {
+            "name": "Белохвостик Ю.А.",
+            "group": false,
+            "discipline": "sport",
+            "lessons": [
+                "1c",
+                "3a",
+                "3c",
+                "5b",
+                "6a",
+                "7a",
+                "8a",
+                "8c",
+                "9a"
+            ]
+        }
+    },
+    {
+        "id": 23,
+        "info": {
+            "name": "teacher 23",
+            "group": false,
+            "discipline": null,
+            "lessons": [
+                "4c",
+                "6a",
+                "6b",
+                "6c",
+                "6d",
+                "7a",
+                "7b",
+                "9b"
+            ]
+        }
+    },
+    {
+        "id": 24,
+        "info": {
+            "name": "teacher 24",
+            "group": false,
+            "discipline": null,
+            "lessons": [
+                "4a",
+                "5a",
+                "5b",
+                "5c",
+                "6a",
+                "7d",
+                "9a",
+                "9b"
+            ]
+        }
+    },
+    {
+        "id": 25,
+        "info": {
+            "name": "teacher 25",
+            "group": false,
+            "discipline": null,
+            "lessons": [
+                "10b",
+                "11a",
+                "2a",
+                "2b",
+                "6b",
+                "7c",
+                "9a",
+                "9c"
+            ]
+        }
+    },
+    {
+        "id": 26,
+        "info": {
+            "name": "teacher 26",
+            "group": false,
+            "discipline": null,
+            "lessons": [
+                "10a",
+                "10b",
+                "11b",
+                "5b",
+                "6b",
+                "6c",
+                "7a",
+                "7b"
+            ]
+        }
+    },
+    {
+        "id": 27,
+        "info": {
+            "name": "teacher 27",
+            "group": false,
+            "discipline": null,
+            "lessons": [
+                "7c",
+                "7d",
+                "8a",
+                "8b",
+                "8c",
+                "9a",
+                "9b",
+                "9c"
+            ]
+        }
+    },
+    {
+        "id": 28,
+        "info": {
+            "name": "teacher 28",
+            "group": false,
+            "discipline": null,
+            "lessons": [
+                "11a",
+                "11b",
+                "6a",
+                "6c",
+                "6d",
+                "8b",
+                "8c"
+            ]
+        }
+    },
+    {
+        "id": 29,
+        "info": {
+            "name": "teacher 29",
+            "group": false,
+            "discipline": null,
+            "lessons": [
+                "10a",
+                "10b",
+                "7b",
+                "7c",
+                "7d",
+                "8a",
+                "8c"
+            ]
+        }
+    },
+    {
+        "id": 30,
+        "info": {
+            "name": "Бушина Ю.А.",
+            "group": false,
+            "discipline": "deutsch",
+            "lessons": [
+                "8a",
+                "8b",
+                "8c",
+                "9a",
+                "9b",
+                "9c"
+            ]
+        }
+    },
+    {
+        "id": 31,
+        "info": {
+            "name": "Храмцова В.В.",
+            "group": false,
+            "discipline": "math",
+            "lessons": [
+                "11a",
+                "5b",
+                "6b",
+                "7b",
+                "9a"
+            ]
+        }
+    },
+    {
+        "id": 32,
+        "info": {
+            "name": "Сысоева С.Б.",
+            "group": false,
+            "discipline": "math",
+            "lessons": [
+                "11b",
+                "5c",
+                "6a",
+                "8c",
+                "9a"
+            ]
+        }
+    },
+    {
+        "id": 33,
+        "info": {
+            "name": "teacher 33",
+            "group": false,
+            "discipline": null,
+            "lessons": [
+                "8a",
+                "8b",
+                "8c",
+                "9a",
+                "9b"
+            ]
+        }
+    },
+    {
+        "id": 34,
+        "info": {
+            "name": "Лехницкая М.А.",
+            "group": false,
+            "discipline": "russian",
+            "lessons": [
+                "10a",
+                "5c",
+                "7b",
+                "7c"
+            ]
+        }
+    },
+    {
+        "id": 35,
+        "info": {
+            "name": "Белаш Е.В.",
+            "group": false,
+            "discipline": "russian",
+            "lessons": [
+                "11a",
+                "11b",
+                "9a",
+                "9c"
+            ]
+        }
+    },
+    {
+        "id": 36,
+        "info": {
+            "name": "Манайчева Е.А.",
+            "group": false,
+            "discipline": "russian",
+            "lessons": [
+                "5b",
+                "5c",
+                "7a",
+                "7d"
+            ]
+        }
+    },
+    {
+        "id": 37,
+        "info": {
+            "name": "VACANCY",
+            "group": false,
+            "discipline": "math",
+            "lessons": [
+                "6c",
+                "6d",
+                "7a",
+                "7d"
+            ]
+        }
+    },
+    {
+        "id": 38,
+        "info": {
+            "name": "Овчарова Ю.А.",
+            "group": false,
+            "discipline": "math",
+            "lessons": [
+                "10a",
+                "7c",
+                "9b",
+                "9c"
+            ]
+        }
+    },
+    {
+        "id": 39,
+        "info": {
+            "name": "Мельникова И.Н.",
+            "group": false,
+            "discipline": "math",
+            "lessons": [
+                "10b",
+                "5a",
+                "8a",
+                "8b"
+            ]
+        }
+    },
+    {
+        "id": 40,
+        "info": {
+            "name": "Платонова О.А.",
+            "group": false,
+            "discipline": "history",
+            "lessons": [
+                "10a",
+                "10b",
+                "9a",
+                "9b"
+            ]
+        }
+    },
+    {
+        "id": 41,
+        "info": {
+            "name": "Ени Т.В.",
+            "group": false,
+            "discipline": "russian",
+            "lessons": [
+                "10b",
+                "6c",
+                "6d"
+            ]
+        }
+    },
+    {
+        "id": 42,
+        "info": {
+            "name": "Быстрицкая М.А.",
+            "group": false,
+            "discipline": "russian",
+            "lessons": [
+                "8a",
+                "8b",
+                "8c"
+            ]
+        }
+    },
+    {
+        "id": 43,
+        "info": {
+            "name": "Кулагина Н.И.",
+            "group": false,
+            "discipline": "geography",
+            "lessons": [
+                "9a",
+                "9b",
+                "9c"
+            ]
+        }
+    },
+    {
+        "id": 44,
+        "info": {
+            "name": "Антонова В.В.",
+            "group": false,
+            "discipline": "russian",
+            "lessons": [
+                "5b",
+                "9b"
+            ]
+        }
+    },
+    {
+        "id": 45,
+        "info": {
+            "name": "Романова Н.С.",
+            "group": false,
+            "discipline": "russian",
+            "lessons": [
+                "5a",
+                "6a"
+            ]
+        }
+    },
+    {
+        "id": 46,
+        "info": {
+            "name": "teacher 46",
+            "group": false,
+            "discipline": null,
+            "lessons": [
+                "10a",
+                "10b"
+            ]
+        }
+    },
+    {
+        "id": 47,
+        "info": {
+            "name": "Лобова А.А.",
+            "group": false,
+            "discipline": "russian",
+            "lessons": [
+                "6b"
+            ]
+        }
+    }
+]
