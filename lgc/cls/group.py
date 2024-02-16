@@ -1,4 +1,5 @@
 from dataclasses import dataclass, field
+from random import shuffle
 
 from lgc.cls.teacher import Teacher
 
@@ -21,7 +22,8 @@ class Group:
 
     def get_shedule(self):
         return self.shedule
-    
+
     def prepare_lessons(self):
-        self.lessons = [key for key,value in self.load.items() for _ in range(value)]
-        
+        self.lessons = [key for key, value in self.load.items()
+                        for _ in range(value)]
+        shuffle(self.lessons)
