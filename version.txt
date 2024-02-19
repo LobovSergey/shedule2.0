@@ -3,3 +3,4 @@
 1.1.0. - start working main process. Testing 5 class, w/o rules, only random. Work badly
 1.1.1. - add check window
 1.1.2. - refactor algo in searching teacher. Working with 5 classes
+1.1.3. - 5-9 сlasses working

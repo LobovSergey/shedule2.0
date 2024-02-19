@@ -1,4 +1,4 @@
-from random import randint
+from random import randint, shuffle
 from lgc.cls.group import Group
 from lgc.cls.teacher import Teacher
 from lgc.source.data.constant import MAX_LESSONS
@@ -19,6 +19,7 @@ def distribution(classes: list[Group], teachers: list[Teacher]):
     for _ in range(MAX_LESSONS):
         pool = []
         for teacher in teachers:
+            shuffle(classes)
             flag = False
             index_group = 0
             while index_group < len(classes):

@@ -15,5 +15,5 @@ def process():
 
     for j in te:
         print(j.name)
-        print(j.shedule[:len(classes[0].shedule)])
+        print(j.shedule[:len(classes[-1].shedule)])
         print(len(j.shedule))
