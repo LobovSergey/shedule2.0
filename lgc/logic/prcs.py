@@ -9,14 +9,11 @@ def process():
         print(i.group)
         print(i.shedule)
         print(len(i.shedule))
-        
-    
-        
-    jk = filter(lambda x: len(tuple(x.shedule)) == 1 and tuple(x.shedule)[0] is not None, te)
-    
-    print(list(jk))
 
-    # for j in jk:
-    #     print(j.name)
-    #     print(j.shedule)
-    #     print(len(j.shedule))
+    # jk = filter(lambda x: len(tuple(x.shedule)) >=
+    #             1 and tuple(x.shedule)[0] is not None, te)
+
+    for j in te:
+        print(j.name)
+        print(j.shedule[:len(classes[0].shedule)])
+        print(len(j.shedule))

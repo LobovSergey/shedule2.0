@@ -2,3 +2,4 @@
 1.0.1. - data read
 1.1.0. - start working main process. Testing 5 class, w/o rules, only random. Work badly
 1.1.1. - add check window
+1.1.2. - refactor algo in searching teacher. Working with 5 classes

@@ -22,8 +22,8 @@ def distribution(classes: list[Group], teachers: list[Teacher]):
             flag = False
             index_group = 0
             while index_group < len(classes):
-                current_class = classes[index_group]                
-                if teacher.descipline in current_class.lessons and current_class.group in teacher.class_pool and current_class.group not in pool:
+                current_class = classes[index_group]
+                if teacher.descipline in current_class.lessons and current_class.group in teacher.class_pool and current_class not in pool:
                     index = current_class.lessons.index(teacher.descipline)
                     lesson = current_class.lessons.pop(index)
                     teacher.shedule.append(current_class)
@@ -32,38 +32,6 @@ def distribution(classes: list[Group], teachers: list[Teacher]):
                     flag = True
                     break
                 index_group += 1
-            if flag:
-                break
-            elif not flag and index_group == len(classes):
-                teacher.shedule.append(None)
-            
-                
-                    
-        # for group in classes:
-        #     if not check_window(i, group):
-        #         continue
-        #     try:
-        #         lesson = group.lessons.pop(0)
-
-        #     except IndexError:
-        #         lesson = None
-
-        #     teachers_pool = list(filter(
-        #         lambda x: group.group in x.class_pool and x.descipline == lesson, teachers))
-        #     for teacher in teachers_pool:
-        #         if lesson == teacher.descipline:
-        #             try:
-        #                 teacher.shedule[i]
-
-        #             except IndexError:
-        #                 if i - len(teacher.shedule) > 0:
-        #                     add_window(shedule=teacher.shedule, index=i)
-        #                 group.shedule.append(lesson)
-        #                 teacher.shedule.insert(i, group)
-        #                 break
-
-                    #
-
-                    #     finally:
-                    #         break
+            if not flag and index_group == len(classes):
+                teacher.shedule.append("__")
     return classes, teachers
