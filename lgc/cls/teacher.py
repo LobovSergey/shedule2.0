@@ -18,3 +18,6 @@ class Teacher:
 
     def get_shedule(self):
         return self.shedule
+
+    def add_class_in_shedule(self, _class):
+        self.shedule.append(_class)
