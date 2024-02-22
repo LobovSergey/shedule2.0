@@ -5,3 +5,4 @@
 1.1.2. - refactor algo in searching teacher. Working with 5 classes
 1.1.3. - 5-9 сlasses working
 1.1.4. - add window logic
+1.1.5. - add main logic in group lessons. refactoring .json

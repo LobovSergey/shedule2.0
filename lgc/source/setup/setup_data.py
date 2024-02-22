@@ -20,6 +20,8 @@ def class_data(classes, teachers):
                            ) for group in classes]
     teachers_class = [Teacher(id=teacher["id"],
                               name=teacher["info"]["name"],
+                              special=teacher["info"]["special"],
+                              groups=teacher["info"]["groups"],
                               descipline=teacher["info"]["discipline"],
                               hours=teacher["info"]["hours"],
                               class_pool=teacher["info"]["class_pool"]

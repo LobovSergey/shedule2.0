@@ -1,3 +1,5 @@
+
+
 class Window:
 
     def __init__(self, iteration) -> None:
@@ -7,6 +9,6 @@ class Window:
     def add_pool(self, _class):
         self.pool.append(_class)
 
-    def find_pairs(self, teachers):
+    def find_pairs(self):
         pass
 ###########

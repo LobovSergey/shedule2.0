@@ -5,6 +5,8 @@ from dataclasses import dataclass, field
 class Teacher:
     id: int = 0
     name: str = None
+    special: bool = False
+    groups: dict = field(default_factory=dict)
     descipline: str = None
     shedule: list[list] = field(default_factory=list)
     hours: int = 0

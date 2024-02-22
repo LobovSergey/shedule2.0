@@ -10,10 +10,7 @@ def process():
         print(i.shedule)
         print(len(i.shedule))
 
-    # jk = filter(lambda x: len(tuple(x.shedule)) >=
-    #             1 and tuple(x.shedule)[0] is not None, te)
-
     for j in te:
         print(j.name)
-        print(j.shedule[:len(classes[-1].shedule)])
+        print(j.shedule)
         print(len(j.shedule))
