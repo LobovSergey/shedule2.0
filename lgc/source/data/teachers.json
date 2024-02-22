@@ -196,11 +196,11 @@
             "name": "Иванов В.Р.",
             "special": true,
             "hours": null,
-            "groups": {
-                "5a": 3,
-                "5b": 3,
-                "5c": 3
-            },
+            "groups": [
+                "5a",
+                "5b",
+                "5c"
+            ],
             "discipline": "english",
             "class_pool": [
                 "2a",
@@ -294,11 +294,11 @@
             "name": "Мнускина Ю.Ю.",
             "special": true,
             "hours": null,
-            "groups": {
-                "5a": 3,
-                "5b": 3,
-                "5c": 3
-            },
+            "groups": [
+                "5a",
+                "5b",
+                "5c"
+            ],
             "discipline": "english",
             "class_pool": [
                 "2c",
@@ -559,11 +559,11 @@
             "name": "Пальчикова Л.М.",
             "special": true,
             "hours": null,
-            "groups": {
-                "5a": 3,
-                "5b": 3,
-                "5c": 3
-            },
+            "groups": [
+                "5a",
+                "5b",
+                "5c"
+            ],
             "discipline": "english",
             "class_pool": [
                 "4a",
