@@ -1,3 +1,4 @@
+from itertools import zip_longest
 from random import randint, shuffle
 from lgc.cls.group import Group
 from lgc.cls.teacher import Teacher
@@ -5,8 +6,17 @@ from lgc.cls.window import Window
 from lgc.source.data.constant import MAX_LESSONS
 
 
-def check_conditions() -> bool:
-    pass
+def check_teachers_subgroup(
+    current_class: Group, special_teachers: list[Teacher]
+) -> bool:
+    group_teachers = list(
+        filter(lambda t: current_class.group in t.groups, special_teachers)
+    )
+    shedules = [teacher.shedule for teacher in group_teachers]
+    for i in zip_longest(*shedules):
+        if None in i:
+            return False
+    return True
 
 
 def group_logic(
@@ -15,7 +25,6 @@ def group_logic(
     group_teachers = list(
         filter(lambda t: current_class.group in t.groups, special_teachers)
     )
-    ### Тут нужна проверка, при которой у первого учителя нашелся класс не в пуле подгрупп, а далее учителя ущутся по подгруппам
     skip.extend(group_teachers)
     list(map(lambda t: t.add_class_in_shedule(current_class), group_teachers))
 
@@ -47,14 +56,9 @@ def distribution(classes: list[Group], teachers: list[Teacher]):
         skipped_teachers = []
         window = Window(i)
         for teacher in teachers:
-            if teacher in skipped_teachers:
-                print(skipped_teachers)
-                print(i)
-                print(teacher)
-                print(teacher.shedule)
-                input()
-                continue
             shuffle(classes)
+            if teacher in skipped_teachers:
+                continue
             flag = False
             index_group = 0
             while index_group < len(classes):
@@ -63,6 +67,7 @@ def distribution(classes: list[Group], teachers: list[Teacher]):
                     teacher.descipline in current_class.lessons
                     and current_class.group in teacher.class_pool
                     and current_class.group not in window.pool
+                    and check_teachers_subgroup(current_class, special_teachers)
                 ):
                     skipped_teachers = formatting_lessons(
                         current_class=current_class,

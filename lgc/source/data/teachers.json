@@ -120,9 +120,23 @@
         "id": 5,
         "info": {
             "name": "Степанова В.А.",
-            "special": false,
+            "special": true,
             "hours": null,
-            "groups": null,
+            "groups": [
+                "5a",
+                "5b",
+                "5c",
+                "6a",
+                "6b",
+                "6c",
+                "6d",
+                "7a",
+                "7b",
+                "7c",
+                "7d",
+                "8a",
+                "8c"
+            ],
             "discipline": "work",
             "class_pool": [
                 "5a",
@@ -197,8 +211,17 @@
             "special": true,
             "hours": null,
             "groups": [
+                "2a",
+                "2b",
+                "2c",
+                "2d",
+                "3a",
+                "3b",
+                "3c",
+                "3d",
+                "4b",
+                "4c",
                 "5a",
-                "5b",
                 "5c"
             ],
             "discipline": "english",
@@ -295,6 +318,14 @@
             "special": true,
             "hours": null,
             "groups": [
+                "2c",
+                "2d",
+                "3a",
+                "3b",
+                "3c",
+                "3d",
+                "4a",
+                "4b",
                 "5a",
                 "5b",
                 "5c"
@@ -536,11 +567,20 @@
     {
         "id": 23,
         "info": {
-            "name": "teacher 23",
+            "name": "Нечаева И.А.",
             "special": false,
             "hours": null,
-            "groups": null,
-            "discipline": null,
+            "groups": [
+                "4c",
+                "6a",
+                "6b",
+                "6c",
+                "6d",
+                "7a",
+                "7b",
+                "9b"
+            ],
+            "discipline": "english",
             "class_pool": [
                 "4c",
                 "6a",
@@ -560,9 +600,14 @@
             "special": true,
             "hours": null,
             "groups": [
+                "4a",
                 "5a",
                 "5b",
-                "5c"
+                "5c",
+                "6a",
+                "7d",
+                "9a",
+                "9b"
             ],
             "discipline": "english",
             "class_pool": [
@@ -580,11 +625,20 @@
     {
         "id": 25,
         "info": {
-            "name": "teacher 25",
-            "special": false,
+            "name": "Гордина А.О.",
+            "special": true,
             "hours": null,
-            "groups": null,
-            "discipline": null,
+            "groups": [
+                "10b",
+                "11a",
+                "2a",
+                "2b",
+                "6b",
+                "7c",
+                "9a",
+                "9c"
+            ],
+            "discipline": "english",
             "class_pool": [
                 "10b",
                 "11a",
@@ -600,11 +654,20 @@
     {
         "id": 26,
         "info": {
-            "name": "teacher 26",
-            "special": false,
+            "name": "Иванова Н.В.",
+            "special": true,
             "hours": null,
-            "groups": null,
-            "discipline": null,
+            "groups": [
+                "10a",
+                "10b",
+                "11b",
+                "5b",
+                "6b",
+                "6c",
+                "7a",
+                "7b"
+            ],
+            "discipline": "english",
             "class_pool": [
                 "10a",
                 "10b",
@@ -620,11 +683,20 @@
     {
         "id": 27,
         "info": {
-            "name": "teacher 27",
-            "special": false,
+            "name": "Подольницкая Т.А.",
+            "special": true,
             "hours": null,
-            "groups": null,
-            "discipline": null,
+            "groups": [
+                "7c",
+                "7d",
+                "8a",
+                "8b",
+                "8c",
+                "9a",
+                "9b",
+                "9c"
+            ],
+            "discipline": "english",
             "class_pool": [
                 "7c",
                 "7d",
@@ -640,11 +712,19 @@
     {
         "id": 28,
         "info": {
-            "name": "teacher 28",
-            "special": false,
+            "name": "Онищенко М.А.",
+            "special": true,
             "hours": null,
-            "groups": null,
-            "discipline": null,
+            "groups": [
+                "11a",
+                "11b",
+                "6a",
+                "6c",
+                "6d",
+                "8b",
+                "8c"
+            ],
+            "discipline": "english",
             "class_pool": [
                 "11a",
                 "11b",
@@ -659,11 +739,19 @@
     {
         "id": 29,
         "info": {
-            "name": "teacher 29",
-            "special": false,
+            "name": "Любанская А.С.",
+            "special": true,
             "hours": null,
-            "groups": null,
-            "discipline": null,
+            "groups": [
+                "10a",
+                "10b",
+                "7b",
+                "7c",
+                "7d",
+                "8a",
+                "8c"
+            ],
+            "discipline": "english",
             "class_pool": [
                 "10a",
                 "10b",
@@ -679,9 +767,15 @@
         "id": 30,
         "info": {
             "name": "Бушина Ю.А.",
-            "special": false,
+            "special": true,
             "hours": null,
-            "groups": null,
+            "groups": [
+                "8a",
+                "8b",
+                "8c",
+                "9a",
+                "9b"
+            ],
             "discipline": "deutsch",
             "class_pool": [
                 "8a",
@@ -953,6 +1047,70 @@
             "discipline": "russian",
             "class_pool": [
                 "6b"
+            ]
+        }
+    },
+    {
+        "id": 48,
+        "info": {
+            "name": "Немешева Т.В.",
+            "special": true,
+            "hours": null,
+            "groups": [
+                "5a",
+                "5b",
+                "5c",
+                "6a",
+                "6b",
+                "6c",
+                "6d",
+                "7a",
+                "7b",
+                "7c",
+                "7d",
+                "8a",
+                "8b",
+                "8c"
+            ],
+            "discipline": "work",
+            "class_pool": [
+                "5a",
+                "5b",
+                "5c",
+                "6a",
+                "6b",
+                "6c",
+                "6d",
+                "7a",
+                "7b",
+                "7c",
+                "7d",
+                "8a",
+                "8b",
+                "8c"
+            ]
+        }
+    },
+    {
+        "id": 49,
+        "info": {
+            "name": "Михайлова Н.Ю.",
+            "special": true,
+            "hours": null,
+            "groups": [
+                "8a",
+                "8b",
+                "8c",
+                "9a",
+                "9b"
+            ],
+            "discipline": "deutsch",
+            "class_pool": [
+                "8a",
+                "8b",
+                "8c",
+                "9a",
+                "9b"
             ]
         }
     }
