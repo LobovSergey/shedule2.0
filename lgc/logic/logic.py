@@ -6,10 +6,9 @@ from lgc.cls.window import Window
 from lgc.source.data.constant import MAX_LESSONS, SPECIAL_LESSON
 
 
-def check_teachers_subgroup(teacher: Teacher,
-                            current_class: Group,
-                            special_teachers: list[Teacher]
-                            ) -> bool:
+def check_teachers_subgroup(
+    teacher: Teacher, current_class: Group, special_teachers: list[Teacher]
+) -> bool:
     if teacher in special_teachers:
         group_teachers = list(
             filter(lambda t: current_class.group in t.groups, special_teachers)
@@ -21,34 +20,39 @@ def check_teachers_subgroup(teacher: Teacher,
     return True
 
 
-def group_logic(current_class: Group,
-                special_teachers: list[Teacher],
-                skip: list[Teacher],
-                lesson: str
-                ):
+def group_logic(
+    current_class: Group,
+    special_teachers: list[Teacher],
+    skip: list[Teacher],
+    lesson: str,
+):
     group_teachers = list(
-        filter(lambda t: current_class.group in t.groups and t.descipline ==
-               lesson, special_teachers)
+        filter(
+            lambda t: current_class.group in t.groups and t.descipline == lesson,
+            special_teachers,
+        )
     )
     skip.extend(group_teachers)
     list(map(lambda t: t.add_class_in_shedule(current_class), group_teachers))
 
 
-def formatting_lessons(current_class: Group,
-                       teacher: Teacher,
-                       window: Window,
-                       special_teachers: list[Teacher],
-                       skip: list
-                       ):
+def formatting_lessons(
+    current_class: Group,
+    teacher: Teacher,
+    window: Window,
+    special_teachers: list[Teacher],
+    skip: list,
+):
     descipline = teacher.descipline
     index = current_class.find_index_by_lesson(descipline)
     lesson = current_class.remove_lesson(index)
     if teacher in special_teachers and current_class.group in teacher.groups:
-        group_logic(current_class=current_class,
-                    special_teachers=special_teachers,
-                    skip=skip,
-                    lesson=lesson
-                    )
+        group_logic(
+            current_class=current_class,
+            special_teachers=special_teachers,
+            skip=skip,
+            lesson=lesson,
+        )
     else:
         teacher.add_class_in_shedule(current_class)
     current_class.add_lesson_in_shedule(lesson)
@@ -56,10 +60,9 @@ def formatting_lessons(current_class: Group,
     return skip
 
 
-def distribution(classes: list[Group],
-                 teachers: list[Teacher]):
+def distribution(classes: list[Group], teachers: list[Teacher]):
     special_teachers = list(filter(lambda teach: teach.special, teachers))
-    for i in range(MAX_LESSONS):
+    for i in range(1, MAX_LESSONS + 1):
         skipped_teachers = []
         window = Window(i)
         shuffle(teachers)
@@ -71,28 +74,32 @@ def distribution(classes: list[Group],
             index_group = 0
             while index_group < len(classes):
                 current_class = classes[index_group]
-                if i == 0:
+                if i == 1:
                     if current_class.class_teacher == teacher.name:
-                        index = current_class.find_index_by_lesson(
-                            SPECIAL_LESSON)
+                        index = current_class.find_index_by_lesson(SPECIAL_LESSON)
                         lesson = current_class.remove_lesson(index)
                         teacher.add_class_in_shedule(current_class)
                         current_class.add_lesson_in_shedule(lesson)
                         window.add_pool(current_class.group)
                         flag = True
                         break
+                # elif i % 7 == 0 and
 
-                elif (teacher.descipline in current_class.lessons
-                      and current_class.group in teacher.class_pool
-                      and current_class.group not in window.pool
-                      and check_teachers_subgroup(teacher, current_class, special_teachers)
-                      ):
-                    skipped_teachers = formatting_lessons(current_class=current_class,
-                                                          teacher=teacher,
-                                                          window=window,
-                                                          special_teachers=special_teachers,
-                                                          skip=skipped_teachers
-                                                          )
+                elif (
+                    teacher.descipline in current_class.lessons
+                    and current_class.group in teacher.class_pool
+                    and current_class.group not in window.pool
+                    and check_teachers_subgroup(
+                        teacher, current_class, special_teachers
+                    )
+                ):
+                    skipped_teachers = formatting_lessons(
+                        current_class=current_class,
+                        teacher=teacher,
+                        window=window,
+                        special_teachers=special_teachers,
+                        skip=skipped_teachers,
+                    )
                     flag = True
                 index_group += 1
             # if check_conditions():

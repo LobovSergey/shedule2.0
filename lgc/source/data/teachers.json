@@ -67,11 +67,26 @@
     {
         "id": 3,
         "info": {
-            "name": "teacher 3",
-            "special": false,
+            "name": "Евсеева М.С.",
+            "special": true,
             "hours": null,
-            "groups": null,
-            "discipline": null,
+            "groups": [
+                "10a",
+                "10b",
+                "11a",
+                "11b",
+                "7a",
+                "7b",
+                "7c",
+                "7d",
+                "8a",
+                "8b",
+                "8c",
+                "9a",
+                "9b",
+                "9c"
+            ],
+            "discipline": "IT",
             "class_pool": [
                 "10a",
                 "10b",
@@ -93,11 +108,26 @@
     {
         "id": 4,
         "info": {
-            "name": "teacher 4",
-            "special": false,
+            "name": "Тищенко М.К.",
+            "special": true,
             "hours": null,
-            "groups": null,
-            "discipline": null,
+            "groups": [
+                "10a",
+                "10b",
+                "11a",
+                "11b",
+                "7a",
+                "7b",
+                "7c",
+                "7d",
+                "8a",
+                "8b",
+                "8c",
+                "9a",
+                "9b",
+                "9c"
+            ],
+            "discipline": "IT",
             "class_pool": [
                 "10a",
                 "10b",
@@ -159,11 +189,13 @@
     {
         "id": 6,
         "info": {
-            "name": "teacher 6",
-            "special": false,
+            "name": "Латнер М.И.",
+            "special": true,
             "hours": null,
-            "groups": null,
-            "discipline": null,
+            "groups": [
+                "10a"
+            ],
+            "discipline": "physics",
             "class_pool": [
                 "10a",
                 "11a",
@@ -183,11 +215,11 @@
     {
         "id": 7,
         "info": {
-            "name": "teacher 7",
+            "name": "Дударов В.И.",
             "special": false,
             "hours": null,
             "groups": null,
-            "discipline": null,
+            "discipline": "society",
             "class_pool": [
                 "5a",
                 "5b",
@@ -291,16 +323,17 @@
     {
         "id": 11,
         "info": {
-            "name": "teacher 11",
-            "special": false,
+            "name": "Деларова Е.В.",
+            "special": true,
             "hours": null,
-            "groups": null,
-            "discipline": null,
+            "groups": [
+                "10b",
+                "11b"
+            ],
+            "discipline": "biology",
             "class_pool": [
                 "10a",
-                "10aP",
                 "10b",
-                "10bP",
                 "11b",
                 "8a",
                 "8b",
@@ -371,11 +404,14 @@
     {
         "id": 14,
         "info": {
-            "name": "teacher 14",
-            "special": false,
+            "name": "Цареградская В.А.",
+            "special": true,
             "hours": null,
-            "groups": null,
-            "discipline": null,
+            "groups": [
+                "10b",
+                "11b"
+            ],
+            "discipline": "society",
             "class_pool": [
                 "10a",
                 "10b",
@@ -392,31 +428,6 @@
     },
     {
         "id": 15,
-        "info": {
-            "name": "teacher 15",
-            "special": false,
-            "hours": null,
-            "groups": null,
-            "discipline": null,
-            "class_pool": [
-                "5a",
-                "5b",
-                "5c",
-                "6a",
-                "6b",
-                "6c",
-                "6d",
-                "7a",
-                "7b",
-                "7c",
-                "7d",
-                "8a",
-                "8c"
-            ]
-        }
-    },
-    {
-        "id": 16,
         "info": {
             "name": "Самарцев А.И.",
             "special": false,
@@ -438,7 +449,7 @@
         }
     },
     {
-        "id": 17,
+        "id": 16,
         "info": {
             "name": "Сергеева В.Д.",
             "special": false,
@@ -460,13 +471,15 @@
         }
     },
     {
-        "id": 18,
+        "id": 17,
         "info": {
-            "name": "teacher 18",
-            "special": false,
+            "name": "Свердлова Е.Д.",
+            "special": true,
             "hours": null,
-            "groups": null,
-            "discipline": null,
+            "groups": [
+                "10b"
+            ],
+            "discipline": "chemistry",
             "class_pool": [
                 "10a",
                 "10b",
@@ -481,7 +494,7 @@
         }
     },
     {
-        "id": 19,
+        "id": 18,
         "info": {
             "name": "Варусон Т.А.",
             "special": false,
@@ -502,7 +515,7 @@
         }
     },
     {
-        "id": 20,
+        "id": 19,
         "info": {
             "name": "Бабайкина Д.Г.",
             "special": false,
@@ -523,7 +536,7 @@
         }
     },
     {
-        "id": 21,
+        "id": 20,
         "info": {
             "name": "Петрова Л.Н.",
             "special": false,
@@ -544,7 +557,7 @@
         }
     },
     {
-        "id": 22,
+        "id": 21,
         "info": {
             "name": "Белохвостик Ю.А.",
             "special": false,
@@ -565,7 +578,7 @@
         }
     },
     {
-        "id": 23,
+        "id": 22,
         "info": {
             "name": "Нечаева И.А.",
             "special": false,
@@ -594,7 +607,7 @@
         }
     },
     {
-        "id": 24,
+        "id": 23,
         "info": {
             "name": "Пальчикова Л.М.",
             "special": true,
@@ -623,7 +636,7 @@
         }
     },
     {
-        "id": 25,
+        "id": 24,
         "info": {
             "name": "Гордина А.О.",
             "special": true,
@@ -652,7 +665,7 @@
         }
     },
     {
-        "id": 26,
+        "id": 25,
         "info": {
             "name": "Иванова Н.В.",
             "special": true,
@@ -681,7 +694,7 @@
         }
     },
     {
-        "id": 27,
+        "id": 26,
         "info": {
             "name": "Подольницкая Т.А.",
             "special": true,
@@ -710,7 +723,7 @@
         }
     },
     {
-        "id": 28,
+        "id": 27,
         "info": {
             "name": "Онищенко М.А.",
             "special": true,
@@ -737,7 +750,7 @@
         }
     },
     {
-        "id": 29,
+        "id": 28,
         "info": {
             "name": "Любанская А.С.",
             "special": true,
@@ -764,7 +777,7 @@
         }
     },
     {
-        "id": 30,
+        "id": 29,
         "info": {
             "name": "Бушина Ю.А.",
             "special": true,
@@ -788,7 +801,7 @@
         }
     },
     {
-        "id": 31,
+        "id": 30,
         "info": {
             "name": "Храмцова В.В.",
             "special": false,
@@ -805,7 +818,7 @@
         }
     },
     {
-        "id": 32,
+        "id": 31,
         "info": {
             "name": "Сысоева С.Б.",
             "special": false,
@@ -822,24 +835,7 @@
         }
     },
     {
-        "id": 33,
-        "info": {
-            "name": "teacher 33",
-            "special": false,
-            "hours": null,
-            "groups": null,
-            "discipline": null,
-            "class_pool": [
-                "8a",
-                "8b",
-                "8c",
-                "9a",
-                "9b"
-            ]
-        }
-    },
-    {
-        "id": 34,
+        "id": 32,
         "info": {
             "name": "Лехницкая М.А.",
             "special": false,
@@ -855,7 +851,7 @@
         }
     },
     {
-        "id": 35,
+        "id": 33,
         "info": {
             "name": "Белаш Е.В.",
             "special": false,
@@ -871,7 +867,7 @@
         }
     },
     {
-        "id": 36,
+        "id": 34,
         "info": {
             "name": "Манайчева Е.А.",
             "special": false,
@@ -887,7 +883,7 @@
         }
     },
     {
-        "id": 37,
+        "id": 35,
         "info": {
             "name": "VACANCY",
             "special": false,
@@ -903,7 +899,7 @@
         }
     },
     {
-        "id": 38,
+        "id": 36,
         "info": {
             "name": "Овчарова Ю.А.",
             "special": false,
@@ -919,7 +915,7 @@
         }
     },
     {
-        "id": 39,
+        "id": 37,
         "info": {
             "name": "Мельникова И.Н.",
             "special": false,
@@ -935,7 +931,7 @@
         }
     },
     {
-        "id": 40,
+        "id": 38,
         "info": {
             "name": "Платонова О.А.",
             "special": false,
@@ -951,7 +947,7 @@
         }
     },
     {
-        "id": 41,
+        "id": 39,
         "info": {
             "name": "Ени Т.В.",
             "special": false,
@@ -966,7 +962,7 @@
         }
     },
     {
-        "id": 42,
+        "id": 40,
         "info": {
             "name": "Быстрицкая М.А.",
             "special": false,
@@ -981,7 +977,7 @@
         }
     },
     {
-        "id": 43,
+        "id": 41,
         "info": {
             "name": "Кулагина Н.И.",
             "special": false,
@@ -996,7 +992,7 @@
         }
     },
     {
-        "id": 44,
+        "id": 42,
         "info": {
             "name": "Антонова В.В.",
             "special": false,
@@ -1010,7 +1006,7 @@
         }
     },
     {
-        "id": 45,
+        "id": 43,
         "info": {
             "name": "Романова Н.С.",
             "special": false,
@@ -1024,13 +1020,15 @@
         }
     },
     {
-        "id": 46,
+        "id": 44,
         "info": {
-            "name": "teacher 46",
-            "special": false,
+            "name": "Попкова Е.С.",
+            "special": true,
             "hours": null,
-            "groups": null,
-            "discipline": null,
+            "groups": [
+                "10b"
+            ],
+            "discipline": "physics",
             "class_pool": [
                 "10a",
                 "10b"
@@ -1038,7 +1036,7 @@
         }
     },
     {
-        "id": 47,
+        "id": 45,
         "info": {
             "name": "Лобова А.А.",
             "special": false,
@@ -1051,7 +1049,7 @@
         }
     },
     {
-        "id": 48,
+        "id": 46,
         "info": {
             "name": "Немешева Т.В.",
             "special": true,
@@ -1069,7 +1067,6 @@
                 "7c",
                 "7d",
                 "8a",
-                "8b",
                 "8c"
             ],
             "discipline": "work",
@@ -1086,13 +1083,12 @@
                 "7c",
                 "7d",
                 "8a",
-                "8b",
                 "8c"
             ]
         }
     },
     {
-        "id": 49,
+        "id": 47,
         "info": {
             "name": "Михайлова Н.Ю.",
             "special": true,

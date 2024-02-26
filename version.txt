@@ -9,3 +9,4 @@
 1.1.5.1 - searching mistakes
 1.1.5.2 - "english" work!
 1.1.6 - 5-classes done!
+1.1.6.1 - teachers done. 100% mistake on 9 classes. added wrap by mistakes
