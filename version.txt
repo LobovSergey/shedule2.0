@@ -8,3 +8,4 @@
 1.1.5. - add main logic in group lessons. refactoring .json
 1.1.5.1 - searching mistakes
 1.1.5.2 - "english" work!
+1.1.6 - 5-classes done!

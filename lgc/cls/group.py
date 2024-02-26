@@ -30,6 +30,8 @@ class Group:
 
     def add_lesson_in_shedule(self, lesson):
         self.shedule.append(lesson)
+        # print(
+        #     f"{self.group}  Append {lesson}\nHAVE {self.shedule}.\n ---------------------")
 
     def remove_lesson(self, index):
         return self.lessons.pop(index)

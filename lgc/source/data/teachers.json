@@ -268,11 +268,11 @@
     {
         "id": 10,
         "info": {
-            "name": "teacher 10",
+            "name": "Балог К.П.",
             "special": false,
             "hours": null,
             "groups": null,
-            "discipline": null,
+            "discipline": "biology",
             "class_pool": [
                 "5a",
                 "5b",

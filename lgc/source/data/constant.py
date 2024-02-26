@@ -1,1 +1,2 @@
 MAX_LESSONS = 35
+SPECIAL_LESSON = "important"

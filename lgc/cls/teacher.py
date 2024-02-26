@@ -23,3 +23,5 @@ class Teacher:
 
     def add_class_in_shedule(self, _class):
         self.shedule.append(_class)
+        # print(
+        #     f"{self.name} add {_class}. \nNow - {self.shedule}\n -----------------------")
